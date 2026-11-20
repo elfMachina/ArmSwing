@@ -1,3 +1,5 @@
+<p align="center"><img src="src/armswing-icon.png" width="160" alt="ArmSwing icon"></p>
+
 # ArmSwing
 
 **让 VRChat 全身追踪走路时手臂自然摆动。**

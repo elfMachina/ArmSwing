@@ -1,3 +1,5 @@
+<p align="center"><img src="src/armswing-icon.png" width="160" alt="ArmSwing icon"></p>
+
 # ArmSwing
 
 **Balanço natural dos braços no rastreamento de corpo inteiro do VRChat.**

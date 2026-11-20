@@ -1,3 +1,5 @@
+<p align="center"><img src="src/armswing-icon.png" width="160" alt="ArmSwing icon"></p>
+
 # ArmSwing
 
 **Естественное покачивание рук при полнотелом трекинге в VRChat.**

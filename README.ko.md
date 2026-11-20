@@ -1,3 +1,5 @@
+<p align="center"><img src="src/armswing-icon.png" width="160" alt="ArmSwing icon"></p>
+
 # ArmSwing
 
 **VRChat 풀바디 트래킹에서 팔을 자연스럽게 흔들며 걷기.**
