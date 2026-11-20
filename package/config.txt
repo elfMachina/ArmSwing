@@ -1,0 +1,43 @@
+# ArmSwing settings
+#
+# Edit and save this file at any time, even while in VR: ArmSwing re-reads it
+# about once a second, no restart needed. Each change is noted as a [cfg]
+# line in armswing.log.
+#
+# Help in other languages: see the README files next to the armswing folder.
+# (日本語 / 한국어 / 简体中文 / Español / Português / Русский)
+
+# ---------------------------------------------------------------------------
+# raise_drop: how far below your headset, in metres, an arm counts as raised.
+# An arm above this line always follows your controller. An arm below it
+# swings with the walk animation while you walk. Each arm is judged on its
+# own, all the time: raise an arm mid-walk and it is yours straight away;
+# lower it and it rejoins the walk.
+#
+#   0.70  default, roughly waist height
+#   0.50  higher line: you must lift an arm higher to keep it
+#   0.90  lower line: only arms hanging right down swing
+raise_drop=0.70
+
+# ---------------------------------------------------------------------------
+# Keeping an arm WITHOUT raising it, e.g. to hold or use something low down.
+#
+# wake_mode:
+#   grip   default. Holding grip or trigger keeps that arm at any height.
+#   touch  as grip, and also while the controller's touch sensor is touched.
+#          Only for controllers you can let go of (strapped controllers,
+#          loose Index straps). On a controller you hold, the sensor reads
+#          "touched" all the time and the arms would never swing.
+#
+# wake_hold: how long the arm stays yours after you let go, in milliseconds.
+wake_mode=grip
+wake_hold=120
+
+# ---------------------------------------------------------------------------
+# walk_hold: how long the stick must be pushed before the arms swing, in
+# milliseconds. Ignores small stick twitches.
+#
+# There is deliberately no delay the other way: the arms are handed back on
+# the exact frame the stick is released. Any delay there shows as the
+# avatar's rest pose after every walk.
+walk_hold=90

@@ -1,0 +1,55 @@
+{
+    "bindings": {
+        "/actions/armswing": {
+            "sources": [
+                {
+                    "path": "/user/hand/left/input/thumbstick",
+                    "mode": "joystick",
+                    "inputs": {
+                        "position": {
+                            "output": "/actions/armswing/in/left_stick_pos"
+                        }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/grip",
+                    "mode": "button",
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/armswing/in/left_hand_use"
+                        }
+                    }
+                },
+                {
+                    "path": "/user/hand/left/input/trigger",
+                    "mode": "trigger",
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/armswing/in/left_hand_use"
+                        }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/grip",
+                    "mode": "button",
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/armswing/in/right_hand_use"
+                        }
+                    }
+                },
+                {
+                    "path": "/user/hand/right/input/trigger",
+                    "mode": "trigger",
+                    "inputs": {
+                        "click": {
+                            "output": "/actions/armswing/in/right_hand_use"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "controller_type": "frame_controller",
+    "description": "armswing Quest/Rift Touch — thumbstick + hand poses"
+}

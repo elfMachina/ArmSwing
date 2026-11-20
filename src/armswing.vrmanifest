@@ -1,0 +1,18 @@
+{
+    "source": "builtin",
+    "applications": [
+        {
+            "app_key": "armswing.watcher",
+            "launch_type": "binary",
+            "binary_path_windows": "armswing.exe",
+            "is_dashboard_overlay": false,
+            "strings": {
+                "en_us": {
+                    "name": "ArmSwing",
+                    "description": "Input watcher for ArmSwing walk-cycle arm driver"
+                }
+            },
+            "action_manifest_path": "actions.json"
+        }
+    ]
+}
